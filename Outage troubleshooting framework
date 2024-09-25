@@ -1,0 +1,145 @@
+Outage Troubleshooting Framework
+This framework provides a structured approach to handling various types of outages, based on the detailed steps outlined in our Windows Server Troubleshooting Guide. It can be applied to a wide range of IT incidents.
+1. Initial Assessment and Information Gathering
+1.1 Identify the Scope:
+
+Determine which services, applications, or systems are affected
+Identify the number of users impacted
+
+1.2 Gather Initial Information:
+
+When did the issue start?
+Are there any error messages or specific symptoms?
+Has anything changed recently in the environment?
+
+1.3 User Communication:
+
+Notify affected users about the awareness of the issue
+Set up a communication channel for updates
+
+2. Quick Checks and Immediate Actions
+2.1 System Status:
+
+Check critical services and processes
+Review recent system logs for obvious errors
+
+2.2 Network Connectivity:
+
+Verify basic network connectivity
+Check for any obvious network issues (e.g., DNS, DHCP)
+
+2.3 Resource Utilization:
+
+Check CPU, memory, and disk usage
+Look for any resource constraints
+
+2.4 Recent Changes:
+
+Review recent updates, patches, or configuration changes
+Consider rolling back recent changes if they're suspected to be the cause
+
+3. In-Depth Investigation
+3.1 Log Analysis:
+
+Review detailed system and application logs
+Look for patterns or recurring issues
+
+3.2 Performance Monitoring:
+
+Analyze performance metrics over time
+Identify any anomalies or bottlenecks
+
+3.3 Security Check:
+
+Review security logs for potential breaches or unusual activity
+Verify the status of security tools and firewalls
+
+3.4 Dependency Mapping:
+
+Identify and check dependent services or systems
+Verify the status of integrated components
+
+4. Specific Component Checks
+4.1 Application Servers:
+
+Check application-specific logs and processes
+Verify database connections and query performance
+
+4.2 Database Servers:
+
+Check database status, connections, and recent query performance
+Verify data integrity and storage
+
+4.3 Network Infrastructure:
+
+Check status of switches, routers, and other network devices
+Verify VPN and remote access systems if applicable
+
+4.4 Storage Systems:
+
+Check storage availability and performance
+Verify backup systems and recent backup status
+
+5. Root Cause Analysis
+5.1 Data Collection:
+
+Gather all relevant logs, metrics, and user reports
+Document the timeline of events
+
+5.2 Analysis:
+
+Identify the primary cause of the outage
+Determine any contributing factors
+
+5.3 Lesson Learning:
+
+Identify what could have prevented the outage
+Determine if existing monitoring could have provided earlier warning
+
+6. Resolution and Recovery
+6.1 Implement Fix:
+
+Apply the solution to resolve the root cause
+Test the fix thoroughly
+
+6.2 Service Restoration:
+
+Restart affected services in the correct order
+Verify full functionality
+
+6.3 User Verification:
+
+Have affected users confirm that services are restored
+Address any lingering issues reported by users
+
+7. Post-Incident Actions
+7.1 Documentation:
+
+Write a detailed incident report
+Update knowledgebase with new troubleshooting steps
+
+7.2 Prevention Measures:
+
+Implement measures to prevent similar incidents
+Update monitoring and alerting systems if needed
+
+7.3 Team Debrief:
+
+Conduct a post-mortem meeting
+Identify areas for improvement in the incident response process
+
+7.4 User Communication:
+
+Provide a summary of the incident to affected users
+Communicate any changes or improvements made
+
+Applying the Framework
+When using this framework:
+
+Start at the top and work through each section methodically.
+Adapt the steps as necessary for the specific type of outage.
+Use the detailed steps in the main guide to inform specific checks and actions.
+Document actions taken at each step for later review and reporting.
+Communicate progress regularly to stakeholders and affected users.
+
+Remember, while this framework provides a structured approach, each outage is unique. Use your judgment and expertise to navigate the specific challenges of each incident.
